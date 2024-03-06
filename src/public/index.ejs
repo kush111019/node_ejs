@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1>Hello world!</h1>
+        <h2>Printing Data</h2>
+        <ul>
+        <% data.forEach(function(value){ %>
+        <li>
+        <%= value.name %>
+        <%= value.age %>
+        <%= value.city %>
+        </li>
+        <%});%>
+        </ul>
+    </body>
+</html>
