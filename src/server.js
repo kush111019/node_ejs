@@ -19,6 +19,7 @@ app.get('/', function(req, res) {
     });
   });
 console.log("Ujjain is a city of LORDS!");
+console.log("Indore is another city in MP");
 app.get('/about',function(req,res){
   res.render("about")
 })
