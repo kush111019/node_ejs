@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
       data:data
     });
   });
-
+console.log("Ujjain is a city of LORDS!");
 app.get('/about',function(req,res){
   res.render("about")
 })
