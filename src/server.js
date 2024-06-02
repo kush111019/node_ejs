@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 app.set('views', path.join(__dirname, 'public'));
 app.set('view engine', 'ejs');
-
+console.log("hello world")
 app.get('/', function(req, res) {
     let data = [
       {name:"amit sharma",age:23,city:"ujjain"},
