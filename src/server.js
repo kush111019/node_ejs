@@ -32,6 +32,7 @@ app.post('/submit',function(req,res){
   res.render('result',{formData})
 })
 console.log("hello world again")
+console.log("watching cricket match")
 app.listen(3000,function(){
  console.log("servier is listening on port 3000");
 })
