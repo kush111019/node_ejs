@@ -33,6 +33,7 @@ app.post('/submit',function(req,res){
 })
 console.log("hello world again")
 console.log("watching cricket match")
+console.log("Today their is a t20 cricket match between India and Pakistan");
 app.listen(3000,function(){
  console.log("servier is listening on port 3000");
 })
